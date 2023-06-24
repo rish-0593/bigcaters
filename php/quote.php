@@ -1854,12 +1854,14 @@ try {
 
     //Recipients
     $mail->setFrom($email, $name);
-    $mail->addAddress('info.bigcaters@gmail.com', 'Big Caters');
-    $mail->addAddress('sanjaygarg1093@rediffmail.com', 'Big Caters');
+
+    foreach ($mails as $_mail => $_name) {
+      $mail->addAddress($_mail, $_name);
+    }
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = $subject;
+    $mail->Subject = $subject.'('.$name.')';
     $mail->Body    = $htmlBody;
 
     $mail->send();
