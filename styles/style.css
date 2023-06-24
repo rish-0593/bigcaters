@@ -4925,6 +4925,10 @@ select#inputGroupSelect0322 {
   display: none;
 }
 
+.fixed-footer > ul > li {
+  padding: 0 10px;
+}
+
 .fixed-footer > ul > li:not(:last-child) {
   border-right: 2px solid #fff;
 }
