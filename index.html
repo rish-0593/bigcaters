@@ -1,782 +1,617 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- TITLE OF SITE -->
-    <title>Big Caters</title>
-    <meta
-      name="description"
-      content="Big Caters Chef-made food, exactly when you want it"
-    />
-    <meta name="keywords" content="Big Caters" />
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- FAVICON  -->
-    <link rel="shortcut icon" href="./image/logo.jpg" type="image/x-icon" />
-    <link rel="icon" href="./image/logo.jpg" type="image/x-icon" />
+  <!-- TITLE OF SITE -->
+  <title>Big Caters</title>
+  <meta name="description" content="Big Caters Chef-made food, exactly when you want it" />
+  <meta name="keywords" content="Big Caters" />
 
-    <link rel="stylesheet" href="./styles/bootstrap.min.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/responsive.css" />
+  <!-- FAVICON  -->
+  <link rel="shortcut icon" href="./image/logo.jpg" type="image/x-icon" />
+  <link rel="icon" href="./image/logo.jpg" type="image/x-icon" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+  <link rel="stylesheet" href="./styles/bootstrap.min.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/responsive.css" />
 
-    <!-- Google Tag Manager -->
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-KHCP7TJ");
-    </script>
-    <!-- End Google Tag Manager -->
-  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-  <body data-spy="scroll" data-target="#main-navbar">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-KHCP7TJ"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KHCP7TJ');</script>
+  <!-- End Google Tag Manager -->
+</head>
 
-    <div class="loader bg-yellow" style="display: none">
-      <div
-        class="loader-inner ball-scale-ripple-multiple vh-center"
-        style="display: none"
-      >
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
+<body data-spy="scroll" data-target="#main-navbar">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHCP7TJ" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div class="loader bg-yellow" style="display: none">
+    <div class="loader-inner ball-scale-ripple-multiple vh-center" style="display: none">
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
+  </div>
 
-    <div class="main-container" id="page">
-      <header id="nav1-3">
-        <nav
-          class="navbar navbar-fixed-top bg-transparent top-nav-collapse"
-          id="main-navbar"
-        >
-          <div class="container">
-            <div class="navbar-header">
-              <button
-                type="button"
-                class="navbar-toggle"
-                data-toggle="collapse"
-                data-target="#navbar-collapse"
-              >
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-
-              <a
-                href="javascript:void(0)"
-                class="navbar-brand logo-black smooth-scroll"
-              >
-                <img src="./image/Untitled design.png" alt="logo" />
-              </a>
-              <a
-                href="javascript:void(0)"
-                class="navbar-brand logo-white smooth-scroll"
-              >
-                <img src="./image/Untitled design.png" alt="logo" />
-              </a>
-            </div>
-
-            <div
-              class="collapse navbar-collapse cta-header"
-              id="navbar-collapse"
-            >
-              <ul class="nav navbar-nav navbar-right">
-                <li class="">
-                  <a href="javascript:void(0)" data-scroll="about-section">
-                    About
-                  </a>
-                </li>
-                <li class="">
-                  <a href="javascript:void(0)" data-scroll="service-section">
-                    Services
-                  </a>
-                </li>
-                <li class="">
-                  <a href="javascript:void(0)" data-scroll="contact-section">
-                    Contact
-                  </a>
-                </li>
-                <li class="active">
-                  <a href="tel:+919811026598" class="btn-nav btn-yellow ls-1">
-                    (+91) 9811026598
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
-
-      <section
-        id="hero9"
-        class="bg-img hero-leadbox p-t-lg p-b-md content-align-md"
-        style="background-image: url(&#39;./image/fff.jpg&#39;)"
-      >
-        <div class="overlay"></div>
-
+  <div class="main-container" id="page">
+    <header id="nav1-3">
+      <nav class="navbar navbar-fixed-top bg-transparent top-nav-collapse" id="main-navbar">
         <div class="container">
-          <div class="row y-middle">
-            <!-- Intro Text -->
-            <div class="col-sm-12 col-md-7 center-md text-white">
-              <h1>Big Caters Chef-made food, exactly when you want it</h1>
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a href="javascript:void(0)" class="navbar-brand logo-black smooth-scroll">
+              <img src="./image/Untitled design.png" alt="logo" />
+            </a>
+            <a href="javascript:void(0)" class="navbar-brand logo-white smooth-scroll">
+              <img src="./image/Untitled design.png" alt="logo" />
+            </a>
+          </div>
+
+          <div class="collapse navbar-collapse cta-header" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="">
+                <a href="javascript:void(0)" data-scroll="about-section">
+                  About
+                </a>
+              </li>
+              <li class="">
+                <a href="javascript:void(0)" data-scroll="service-section">
+                  Services
+                </a>
+              </li>
+              <li class="">
+                <a href="javascript:void(0)" data-scroll="contact-section">
+                  Contact
+                </a>
+              </li>
+              <li class="active">
+                <a href="tel:+919811026598" class="btn-nav btn-yellow ls-1">
+                  (+91) 9811026598
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="hero9" class="bg-img hero-leadbox p-t-lg p-b-md content-align-md"
+      style="background-image: url(&#39;./image/fff.jpg&#39;)">
+      <div class="overlay"></div>
+
+      <div class="container">
+        <div class="row y-middle">
+          <!-- Intro Text -->
+          <div class="col-sm-12 col-md-7 center-md text-white">
+            <h1>Big Caters Chef-made food, exactly when you want it</h1>
+            <p class="lead m-b-md">
+              Above & Beyond Catering is one of Indian top full-service
+              catering companies. Known for our consistency, timeliness and
+              fresh menus, we flawlessly execute events of every shape and
+              size. Whether you’re looking for an energizing,
+              productivity-boosting lunch break or a rewarding celebration
+              gala, we’re dedicated to creating something truly incredible.
+            </p>
+          </div>
+          <!-- Quote Form -->
+          <div class="col-sm-12 col-md-5" id="quote-section">
+            <form class="form-horizontal form-white text-white" id="quoteForm">
+              <h4 class="center-md">Request a Quote Now</h4>
+              <p class="center-md m-b-md">
+                Just fill-in the form below and we will get in touch with you
+                as soon as possible.
+              </p>
+              <p class="success qf">
+                <i class="fa fa-check"></i>
+                <strong>Your quote has successfully been sent.</strong>
+              </p>
+              <p class="failed qf">
+                <i class="fa fa-exclamation-circle"></i>
+                <strong> Something went wrong!</strong>
+              </p>
+
+              <div class="form-group">
+                <input type="text" class="form-control" id="qName" placeholder="Name" required="" />
+              </div>
+
+              <div class="form-group">
+                <input type="email" class="form-control" id="qEmail" placeholder="Email" required="" />
+              </div>
+
+              <div class="form-group">
+                <input type="tel" class="form-control" id="qPhone" minlength="10" pattern="[3-9]{10}" maxlength="10"
+                  placeholder="Phone Number" required="" />
+              </div>
+
+              <div class="input-group mb-3">
+                <select class="form-group col-xl-12 custom-select form-control" id="inputGroupSelect02" required>
+                  <option value="">Choose...</option>
+                  <option value="Corporate Event">Corporate Event</option>
+                  <option value="Wedding Event">Wedding Event</option>
+                  <option value="Private Event">Private Event</option>
+                  <option value="Birthday Party">Birthday Party</option>
+                  <option value="Anniversary Celebration">
+                    Anniversary Celebration
+                  </option>
+                </select>
+              </div>
+
+              <div class="input-group mb-3">
+                <select class="form-group col-xl-12 custom-select form-control" id="inputGroupSelect03" required>
+                  <option value="">Event Size..</option>
+                  <option value="20-50">20-50</option>
+                  <option value="50-100">50-100</option>
+                  <option value="100-300">100-300</option>
+                  <option value="300-500">300-500</option>
+                  <option value="1000+">1000+</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <textarea id="qMessage" rows="5" class="form-control" placeholder="Details" style="resize: none"
+                  required=""></textarea>
+              </div>
+
+              <div class="form-group">
+                <button type="submit" class="btn btn-yellow">
+                  GET A QUOTE!
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-section" class="p-t-md bg-edit">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="section-header text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn">
+              <h2 class="m-b-md">OUR STYLE AND OUR GOAL</h2>
               <p class="lead m-b-md">
-                Above & Beyond Catering is one of Indian top full-service
-                catering companies. Known for our consistency, timeliness and
-                fresh menus, we flawlessly execute events of every shape and
-                size. Whether you’re looking for an energizing,
-                productivity-boosting lunch break or a rewarding celebration
-                gala, we’re dedicated to creating something truly incredible.
-              </p>
-            </div>
-            <!-- Quote Form -->
-            <div class="col-sm-12 col-md-5" id="quote-section">
-              <form
-                class="form-horizontal form-white text-white"
-                id="quoteForm"
-              >
-                <h4 class="center-md">Request a Quote Now</h4>
-                <p class="center-md m-b-md">
-                  Just fill-in the form below and we will get in touch with you
-                  as soon as possible.
-                </p>
-                <p class="success qf">
-                  <i class="fa fa-check"></i>
-                  <strong>Your quote has successfully been sent.</strong>
-                </p>
-                <p class="failed qf">
-                  <i class="fa fa-exclamation-circle"></i>
-                  <strong> Something went wrong!</strong>
-                </p>
-
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="qName"
-                    placeholder="Name"
-                    required=""
-                  />
-                </div>
-
-                <div class="form-group">
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="qEmail"
-                    placeholder="Email"
-                    required=""
-                  />
-                </div>
-
-                <div class="form-group">
-                  <input
-                    type="tel"
-                    class="form-control"
-                    id="qPhone"
-                    placeholder="Phone Number"
-                    required=""
-                  />
-                </div>
-
-                <div class="input-group mb-3">
-                  <select
-                    class="form-group col-xl-12 custom-select form-control"
-                    id="inputGroupSelect02"
-                  >
-                    <option value="">Choose...</option>
-                    <option value="Corporate">Corporate</option>
-                    <option value="Wedding">Wedding</option>
-                    <option value="Private">Private</option>
-                    <option value="Birthday Party">Birthday Party</option>
-                    <option value="Anniversary Celebration">
-                      Anniversary Celebration
-                    </option>
-                  </select>
-                </div>
-
-                <div class="input-group mb-3">
-                  <select
-                    class="form-group col-xl-12 custom-select form-control"
-                    id="inputGroupSelect03"
-                  >
-                    <option value="">Event Size..</option>
-                    <option value="20-50">20-50</option>
-                    <option value="50-100">50-100</option>
-                    <option value="100-300">100-300</option>
-                    <option value="300-500">300-500</option>
-                    <option value="1000+">1000+</option>
-                  </select>
-                </div>
-
-                <div class="form-group">
-                  <textarea
-                    id="qMessage"
-                    rows="5"
-                    class="form-control"
-                    placeholder="Details"
-                    style="resize: none"
-                    required=""
-                  ></textarea>
-                </div>
-
-                <div class="form-group">
-                  <button type="submit" class="btn btn-yellow">
-                    GET A QUOTE!
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="about-section" class="p-t-md bg-edit">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <div
-                class="section-header text-center wow fadeIn"
-                style="visibility: visible; animation-name: fadeIn"
-              >
-                <h2 class="m-b-md">OUR STYLE AND OUR GOAL</h2>
-                <p class="lead m-b-md">
-                  The Bay Area provides endless culinary inspiration, with both
-                  a thriving restaurant scene and innovative residents from all
-                  over the world. We pride ourselves in taking these
-                  inspirations and fusing them together to create unique menus
-                  full of flavor. Locally sourced, seasonal ingredients like ,
-                  bright and sweet citrus and so much more delicious produce
-                  serve as the core elements of every dish.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="container p-a-0">
-          <div class="row content-grid">
-            <div class="col-md-6">
-              <div
-                class="img-block"
-                style="background-image: url(./image/ff2.jpg)"
-              ></div>
-            </div>
-
-            <div class="col-md-6">
-              <div class="lead-block bg-edit bg-yellow">
-                <p
-                  class="lead text-white m-b-0 wow zoomIn"
-                  style="visibility: visible; animation-name: zoomIn"
-                >
-                  We strive to provide easy-to-order, awesome-to-eat catering at
-                  every Above & Beyond event. Whatever your hopes and dreams, we
-                  want to help you plan a Delhi NCR celebration that you and
-                  your guests won't soon forget. Our professional team of
-                  planners and servers will work together along the way to make
-                  sure every detail is attended to, and every expectation
-                  exceeded.
-                </p>
-              </div>
-              <div
-                class="img-block dfdddd"
-                style="background-image: url(./image/ff4.jpg)"
-              ></div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="service-section" class="p-y-md">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <div
-                class="section-header text-center wow fadeIn"
-                style="visibility: visible; animation-name: fadeIn"
-              >
-                <h2>Our Catering Services</h2>
-                <p class="lead">
-                  "Savor the flavors, indulge in culinary excellence. Our
-                  catering services ensure every bite is a memorable delight.
-                  Trust us to make your event extraordinary with our delectable
-                  creations and impeccable service."
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row features-block">
-            <div class="col-sm-6 img-left m-b-md clearfix">
-              <img src="./image/lg1.jpg" alt="" />
-              <h5 class="m-t f-w-900">Corporate Catering</h5>
-              <p>
-                This type of catering is focused on providing meals for business
-                events such as conferences, meetings, seminars, and office
-                parties. It may include buffet-style meals, boxed lunches, or
-                plated meals.
-              </p>
-            </div>
-
-            <div class="col-sm-6 img-left m-b-md clearfix">
-              <img src="./image/lg2.jpg" alt="" />
-              <h5 class="m-t f-w-900">Wedding Catering</h5>
-              <p>
-                Wedding catering specializes in providing food and beverage
-                services for weddings and related events. It often includes a
-                customized menu, multi-course meals, and wedding cakes.
-              </p>
-            </div>
-          </div>
-
-          <div class="row features-block">
-            <div class="col-sm-6 img-left m-b-md clearfix">
-              <img src="./image/lg3.jpg" alt="" />
-              <h5 class="m-t f-w-900">Event Catering</h5>
-              <p>
-                Event catering covers a wide range of social gatherings, such as
-                birthdays, anniversaries, reunions, and gala dinners. The menu
-                and service style can be tailored to suit the event's theme,
-                whether it's a casual buffet or an elegant sit-down dinner.
-              </p>
-            </div>
-
-            <div class="col-sm-6 img-left m-b-md clearfix">
-              <img src="./image/lg4.jpg" alt="" />
-              <h5 class="m-t f-w-900">Social Catering</h5>
-              <p>
-                Social catering refers to catering services for private parties
-                and social gatherings, including house parties, holiday
-                celebrations, and family gatherings. It can involve a variety of
-                food options, from finger foods and appetizers to full-course
-                meals.
+                The Bay Area provides endless culinary inspiration, with both
+                a thriving restaurant scene and innovative residents from all
+                over the world. We pride ourselves in taking these
+                inspirations and fusing them together to create unique menus
+                full of flavor. Locally sourced, seasonal ingredients like ,
+                bright and sweet citrus and so much more delicious produce
+                serve as the core elements of every dish.
               </p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section
-        id="cta3-3"
-        class="p-y-md bg-img"
-        style="background-image: url(./image/catering-bg.jpg)"
-      >
-        <div class="overlay"></div>
-        <div class="container">
-          <div class="row">
-            <div
-              class="col-md-8 col-md-offset-2 text-center text-white wow fadeIn"
-              style="visibility: visible; animation-name: fadeIn"
-            >
-              <h3 class="f-w-900 m-b-md">
-                Big Caters are one of the best CATERERS
-              </h3>
-              <p class="lead m-b-md">
-                Stress-free service and incredible food are what matter most at
-                Delhi NCR corporate and special events. At Above & Beyond, we
-                understand that your busy lifestyle doesn't always have time for
-                hours of coordinating. Our professional team provides quick,
-                effortless planning and helps you arrange a flavorful menu that
-                will make your event an absolute success.
+      <div class="container p-a-0">
+        <div class="row content-grid">
+          <div class="col-md-6">
+            <div class="img-block" style="background-image: url(./image/ff2.jpg)"></div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="lead-block bg-edit bg-yellow">
+              <p class="lead text-white m-b-0 wow zoomIn" style="visibility: visible; animation-name: zoomIn">
+                We strive to provide easy-to-order, awesome-to-eat catering at
+                every Above & Beyond event. Whatever your hopes and dreams, we
+                want to help you plan a Delhi NCR celebration that you and
+                your guests won't soon forget. Our professional team of
+                planners and servers will work together along the way to make
+                sure every detail is attended to, and every expectation
+                exceeded.
               </p>
-              <a
-                href="javascript:void(0)"
-                class="btn btn-shadow btn-yellow btn-md text-uppercase"
-              >
-                Request a Quote Now!
-              </a>
+            </div>
+            <div class="img-block dfdddd" style="background-image: url(./image/ff4.jpg)"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="service-section" class="p-y-md">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="section-header text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn">
+              <h2>Our Catering Services</h2>
+              <p class="lead">
+                "Savor the flavors, indulge in culinary excellence. Our
+                catering services ensure every bite is a memorable delight.
+                Trust us to make your event extraordinary with our delectable
+                creations and impeccable service."
+              </p>
             </div>
           </div>
         </div>
-      </section>
 
-      <section
-        id="testimonials4-1"
-        class="p-y-md content-align-sm bg-edit bg-light"
-      >
-        <div class="container">
-          <div class="row y-middle">
-            <div class="col-md-5 col-sm-6 m-b center-sm">
-              <h3 class="f-w-900 m-b">What our customers says</h3>
-              <h5>Feedback is important to motivate our self</h5>
-              <p class="m-b-md">
-                Feedbacks are invaluable as they provide social proof and
-                reassurance, showcasing the positive experiences and
-                satisfaction of previous clients, helping to build trust and
-                credibility for a business or service.
-              </p>
-            </div>
+        <div class="row features-block">
+          <div class="col-sm-6 img-left m-b-md clearfix">
+            <img src="./image/lg1.jpg" alt="" />
+            <h5 class="m-t f-w-900">Corporate Catering</h5>
+            <p>
+              This type of catering is focused on providing meals for business
+              events such as conferences, meetings, seminars, and office
+              parties. It may include buffet-style meals, boxed lunches, or
+              plated meals.
+            </p>
+          </div>
 
-            <div class="col-md-5 col-sm-6 text-center testimonials-right">
-              <div
-                id="carousel-testimonial1"
-                class="carousel slide carousel-fade carousel-testimonial-single"
-                data-ride="carousel"
-              >
-                <ol class="carousel-indicators inverse">
-                  <li
-                    data-target="#carousel-testimonial1"
-                    data-slide-to="0"
-                    class=""
-                  ></li>
-                  <li
-                    data-target="#carousel-testimonial1"
-                    data-slide-to="1"
-                    class="active"
-                  ></li>
-                </ol>
+          <div class="col-sm-6 img-left m-b-md clearfix">
+            <img src="./image/lg2.jpg" alt="" />
+            <h5 class="m-t f-w-900">Wedding Catering</h5>
+            <p>
+              Wedding catering specializes in providing food and beverage
+              services for weddings and related events. It often includes a
+              customized menu, multi-course meals, and wedding cakes.
+            </p>
+          </div>
+        </div>
 
-                <div class="carousel-inner" role="listbox">
-                  <div class="item">
-                    <blockquote>
-                      <p class="p-opacity m-b-md f-w-700">
-                        <i
-                          class="fa fa-quote-left m-r p-opacity"
-                          style="font-size: 15px"
-                        ></i>
-                        Big Caters made our wedding a truly memorable event with
-                        their impeccable planning and delicious food. They went
-                        above and beyond our expectations, and we highly
-                        recommend their services.
-                        <i
-                          class="fa fa-quote-right m-l p-opacity"
-                          style="font-size: 15px"
-                        ></i>
-                      </p>
-                      <figure>
-                        <img
-                          src="./image/8-1.png"
-                          alt=""
-                          class="img-circle m-b"
-                          width="120"
-                          height="120"
-                        />
-                      </figure>
-                      <cite class="p-opacity text-edit"
-                        ><strong>Meena Patel</strong>, Doctor
-                      </cite>
-                    </blockquote>
-                  </div>
+        <div class="row features-block">
+          <div class="col-sm-6 img-left m-b-md clearfix">
+            <img src="./image/lg3.jpg" alt="" />
+            <h5 class="m-t f-w-900">Event Catering</h5>
+            <p>
+              Event catering covers a wide range of social gatherings, such as
+              birthdays, anniversaries, reunions, and gala dinners. The menu
+              and service style can be tailored to suit the event's theme,
+              whether it's a casual buffet or an elegant sit-down dinner.
+            </p>
+          </div>
 
-                  <div class="item active">
-                    <blockquote>
-                      <p class="p-opacity m-b-md f-w-700">
-                        <i
-                          class="fa fa-quote-left m-r p-opacity"
-                          style="font-size: 15px"
-                        ></i>
-                        We are extremely grateful to Big Caters for their
-                        outstanding catering services at our daughter's wedding.
-                        The attention to detail and professionalism displayed by
-                        their team was commendable. They made sure every guest
-                        was delighted with the delectable menu.
-                        <i
-                          class="fa fa-quote-right m-l p-opacity"
-                          style="font-size: 15px"
-                        ></i>
-                      </p>
-                      <figure>
-                        <img
-                          src="./image/11-1.png"
-                          alt=""
-                          class="img-circle m-b"
-                          width="120"
-                          height="120"
-                        />
-                      </figure>
-                      <cite class="p-opacity text-edit"
-                        ><strong>Ramesh Sharma</strong>, Businessman</cite
-                      >
-                    </blockquote>
-                  </div>
+          <div class="col-sm-6 img-left m-b-md clearfix">
+            <img src="./image/lg4.jpg" alt="" />
+            <h5 class="m-t f-w-900">Social Catering</h5>
+            <p>
+              Social catering refers to catering services for private parties
+              and social gatherings, including house parties, holiday
+              celebrations, and family gatherings. It can involve a variety of
+              food options, from finger foods and appetizers to full-course
+              meals.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta3-3" class="p-y-md bg-img" style="background-image: url(./image/catering-bg.jpg)">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center text-white wow fadeIn"
+            style="visibility: visible; animation-name: fadeIn">
+            <h3 class="f-w-900 m-b-md">
+              Big Caters are one of the best CATERERS
+            </h3>
+            <p class="lead m-b-md">
+              Stress-free service and incredible food are what matter most at
+              Delhi NCR corporate and special events. At Above & Beyond, we
+              understand that your busy lifestyle doesn't always have time for
+              hours of coordinating. Our professional team provides quick,
+              effortless planning and helps you arrange a flavorful menu that
+              will make your event an absolute success.
+            </p>
+            <a href="javascript:void(0)" class="btn btn-shadow btn-yellow btn-md text-uppercase">
+              Request a Quote Now!
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials4-1" class="p-y-md content-align-sm bg-edit bg-light">
+      <div class="container">
+        <div class="row y-middle">
+          <div class="col-md-5 col-sm-6 m-b center-sm">
+            <h3 class="f-w-900 m-b">What our customers says</h3>
+            <h5>Feedback is important to motivate our self</h5>
+            <p class="m-b-md">
+              Feedbacks are invaluable as they provide social proof and
+              reassurance, showcasing the positive experiences and
+              satisfaction of previous clients, helping to build trust and
+              credibility for a business or service.
+            </p>
+          </div>
+
+          <div class="col-md-5 col-sm-6 text-center testimonials-right">
+            <div id="carousel-testimonial1" class="carousel slide carousel-fade carousel-testimonial-single"
+              data-ride="carousel">
+              <ol class="carousel-indicators inverse">
+                <li data-target="#carousel-testimonial1" data-slide-to="0" class=""></li>
+                <li data-target="#carousel-testimonial1" data-slide-to="1" class="active"></li>
+              </ol>
+
+              <div class="carousel-inner" role="listbox">
+                <div class="item">
+                  <blockquote>
+                    <p class="p-opacity m-b-md f-w-700">
+                      <i class="fa fa-quote-left m-r p-opacity" style="font-size: 15px"></i>
+                      Big Caters made our wedding a truly memorable event with
+                      their impeccable planning and delicious food. They went
+                      above and beyond our expectations, and we highly
+                      recommend their services.
+                      <i class="fa fa-quote-right m-l p-opacity" style="font-size: 15px"></i>
+                    </p>
+                    <figure>
+                      <img src="./image/8-1.png" alt="" class="img-circle m-b" width="120" height="120" />
+                    </figure>
+                    <cite class="p-opacity text-edit"><strong>Meena Patel</strong>, Doctor
+                    </cite>
+                  </blockquote>
+                </div>
+
+                <div class="item active">
+                  <blockquote>
+                    <p class="p-opacity m-b-md f-w-700">
+                      <i class="fa fa-quote-left m-r p-opacity" style="font-size: 15px"></i>
+                      We are extremely grateful to Big Caters for their
+                      outstanding catering services at our daughter's wedding.
+                      The attention to detail and professionalism displayed by
+                      their team was commendable. They made sure every guest
+                      was delighted with the delectable menu.
+                      <i class="fa fa-quote-right m-l p-opacity" style="font-size: 15px"></i>
+                    </p>
+                    <figure>
+                      <img src="./image/11-1.png" alt="" class="img-circle m-b" width="120" height="120" />
+                    </figure>
+                    <cite class="p-opacity text-edit"><strong>Ramesh Sharma</strong>, Businessman</cite>
+                  </blockquote>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="contact-section" class="p-y-md">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-6 text-center mb-5"></div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-md-12">
-              <div class="wrapper">
-                <div class="row no-gutters">
-                  <div class="col-md-7">
-                    <div class="contact-wrap w-100 p-md-5 p-4">
-                      <h3 class="mb-4">Contact Us</h3>
-                      <div class="warning cf" class="mb-4"></div>
-                      <div class="success cf" class="mb-4">
-                        Your message was sent, thank you!
-                      </div>
+    <section id="contact-section" class="p-y-md">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center mb-5"></div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+            <div class="wrapper">
+              <div class="row no-gutters">
+                <div class="col-md-7">
+                  <div class="contact-wrap w-100 p-md-5 p-4">
+                    <h3 class="mb-4">Contact Us</h3>
+                    <div class="warning cf" class="mb-4"></div>
+                    <div class="success cf" class="mb-4">
+                      Your message was sent, thank you!
+                    </div>
 
-                      <form class="contactForm" id="contactForm">
-                        <div class="row">
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <label class="label" for="cName">Name</label>
-                              <input
-                                type="text"
-                                class="form-control"
-                                id="cName"
-                                placeholder="Name"
-                                required
-                              />
-                            </div>
-                          </div>
-
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <label class="label" for="cEmail">Email</label>
-                              <input
-                                type="email"
-                                class="form-control"
-                                id="cEmail"
-                                placeholder="Email"
-                                required
-                              />
-                            </div>
-                          </div>
-
-                          <div class="col-md-12">
-                            <div class="form-group">
-                              <label class="label" for="cPhone"
-                                >Phone Number</label
-                              >
-                              <input
-                                type="text"
-                                class="form-control"
-                                id="cPhone"
-                                placeholder="Phone Number"
-                                required
-                              />
-                            </div>
-                          </div>
-
-                          <div class="col-md-12">
-                            <div class="form-group input-group mb-3">
-                              <select
-                                class="form-group col-xl-12 custom-select form-control"
-                                id="cChoose"
-                                required
-                              >
-                                <option value="">Choose...</option>
-                                <option value="Corporate">Corporate</option>
-                                <option value="Wedding">Wedding</option>
-                                <option value="Private">Private</option>
-                                <option value="Birthday Party">
-                                  Birthday Party
-                                </option>
-                                <option value="Anniversary Celebration">
-                                  Anniversary Celebration
-                                </option>
-                              </select>
-                            </div>
-                          </div>
-
-                          <div class="col-md-12">
-                            <div class="form-group input-group mb-3">
-                              <select
-                                class="form-group col-xl-12 custom-select form-control"
-                                id="cEventSize"
-                                required
-                              >
-                                <option value="">Event Size..</option>
-                                <option value="20-50">20-50</option>
-                                <option value="50-100">50-100</option>
-                                <option value="100-300">100-300</option>
-                                <option value="300-500">300-500</option>
-                                <option value="1000+">1000+</option>
-                              </select>
-                            </div>
-                          </div>
-
-                          <div class="col-md-12">
-                            <div class="form-group">
-                              <label class="label" for="self">Details</label>
-                              <textarea
-                                class="form-control"
-                                id="cMessage"
-                                cols="30"
-                                rows="4"
-                                placeholder="Details"
-                                required
-                              ></textarea>
-                            </div>
-                          </div>
-
-                          <div class="col-md-12">
-                            <div class="form-group">
-                              <button type="submit" class="btn btn-primary">
-                                Send Message
-                              </button>
-                              <div class="submitting"></div>
-                            </div>
+                    <form class="contactForm" id="contactForm">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label class="label" for="cName">Name</label>
+                            <input type="text" class="form-control" id="cName" placeholder="Name" required />
                           </div>
                         </div>
-                      </form>
-                    </div>
+
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label class="label" for="cEmail">Email</label>
+                            <input type="email" class="form-control" id="cEmail" placeholder="Email" required />
+                          </div>
+                        </div>
+
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label class="label" for="cPhone">Phone Number</label>
+                            <input type="text" class="form-control" id="cPhone" minlength="10" pattern="[3-9]{10}"
+                              maxlength="10" placeholder="Phone Number" required />
+                          </div>
+                        </div>
+
+                        <div class="col-md-12">
+                          <div class="form-group input-group mb-3">
+                            <select class="form-group col-xl-12 custom-select form-control" id="cChoose" required>
+                              <option value="">Choose...</option>
+                              <option value="Corporate Event">Corporate Event</option>
+                              <option value="Wedding Event">Wedding Event</option>
+                              <option value="Private Event">Private Event</option>
+                              <option value="Birthday Party">
+                                Birthday Party
+                              </option>
+                              <option value="Anniversary Celebration">
+                                Anniversary Celebration
+                              </option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="col-md-12">
+                          <div class="form-group input-group mb-3">
+                            <select class="form-group col-xl-12 custom-select form-control" id="cEventSize" required>
+                              <option value="">Event Size..</option>
+                              <option value="20-50">20-50</option>
+                              <option value="50-100">50-100</option>
+                              <option value="100-300">100-300</option>
+                              <option value="300-500">300-500</option>
+                              <option value="1000+">1000+</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label class="label" for="self">Details</label>
+                            <textarea class="form-control" id="cMessage" cols="30" rows="4" placeholder="Details"
+                              required></textarea>
+                          </div>
+                        </div>
+
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <button type="submit" class="btn btn-primary">
+                              Send Message
+                            </button>
+                            <div class="submitting"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
                   </div>
-                  <div class="col-md-5 d-flex align-items-stretch">
-                    <div
-                      class="info-wrap w-100 p-5 imgss"
-                      style="
+                </div>
+                <div class="col-md-5 d-flex align-items-stretch">
+                  <div class="info-wrap w-100 p-5 imgss" style="
                         background-image: url(./image/Untitled-design-3.png);
-                      "
-                    >
-                      <img src="./image/food.jpg" />
-                    </div>
+                      ">
+                    <img src="./image/food.jpg" />
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="contact7-1" class="bg-edit bg-yellow">
-        <div class="container-fluid">
-          <div class="row">
-            <div
-              class="col-md-10 col-md-offset-1 c4 contact-divider text-white p-y text-center"
-            >
-              <div class="col-md-3">
-                <i class="fa fa-solid fa-map-marker"></i>
-                <h5 class="f-w-900">Address</h5>
-                <p class="f-w-700">
-                  B4 - 300, Second Floor, Rohini, Sector-8, Delhi
-                </p>
-              </div>
-              <div class="col-md-3">
-                <i class="fa fa-solid fa-phone"></i>
-                <h5 class="f-w-900">Call Us</h5>
-                <p class="f-w-700">
-                  Mobile:
-                  <a href="tel:+917827010039" class="inverse">
-                    (+91) 7827010039
-                  </a>
-                  <br />
-                  Free Line:
-                  <a href="tel:+919811026598" class="inverse">
-                    (+91) 9811026598
-                  </a>
-                </p>
-              </div>
-              <div class="col-md-3">
-                <i class="fa fa-solid fa-envelope"></i>
-                <h5 class="f-w-900">Email</h5>
-                <p class="f-w-700">
-                  <a href="mailto:info.bigcaters@gmail.com" class="inverse">
-                    info.bigcaters@gmail.com
-                  </a>
-                  <br />
-                  <a href="mailto:bigcaters@gmail.com" class="inverse">
-                    bigcaters@gmail.com
-                  </a>
-                </p>
-              </div>
-              <div class="col-md-3">
-                <i class="fa fa-solid fa-clock-o"></i>
-                <h5 class="f-w-900">Working Hours</h5>
-                <p class="f-w-700">
-                  Mon to Sat - 9 AM to 11 PM<br />
-                  Sunday 10 AM to 6 PM
-                </p>
-              </div>
+    <section id="contact7-1" class="bg-edit bg-yellow">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1 c4 contact-divider text-white p-y text-center">
+            <div class="col-md-3">
+              <i class="fa fa-solid fa-map-marker"></i>
+              <h5 class="f-w-900">Address</h5>
+              <p class="f-w-700">
+                B4 - 300, Second Floor, Rohini, Sector-8, Delhi
+              </p>
+            </div>
+            <div class="col-md-3">
+              <i class="fa fa-solid fa-phone"></i>
+              <h5 class="f-w-900">Call Us</h5>
+              <p class="f-w-700">
+                Mobile:
+                <a href="tel:+917827010039" class="inverse">
+                  (+91) 7827010039
+                </a>
+                <br />
+                Free Line:
+                <a href="tel:+919811026598" class="inverse">
+                  (+91) 9811026598
+                </a>
+              </p>
+            </div>
+            <div class="col-md-3">
+              <i class="fa fa-solid fa-envelope"></i>
+              <h5 class="f-w-900">Email</h5>
+              <p class="f-w-700">
+                <a href="mailto:info.bigcaters@gmail.com" class="inverse">
+                  info.bigcaters@gmail.com
+                </a>
+                <br />
+                <a href="mailto:bigcaters@gmail.com" class="inverse">
+                  bigcaters@gmail.com
+                </a>
+              </p>
+            </div>
+            <div class="col-md-3">
+              <i class="fa fa-solid fa-clock-o"></i>
+              <h5 class="f-w-900">Working Hours</h5>
+              <p class="f-w-700">
+                Mon to Sat - 9 AM to 11 PM<br />
+                Sunday 10 AM to 6 PM
+              </p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <footer
-        id="footer2-2"
-        class="p-y footer f2 bg-edit bg-dark"
-        style="background-color: #f0931e"
-      >
-        <div class="container">
-          <div class="row text-white">
-            <div class="col-sm-12 copyright-footer">
-              <p>Copyright © 2023 Big Caters. All rights are reserved.</p>
-            </div>
+    <footer id="footer2-2" class="p-y footer f2 bg-edit bg-dark" style="background-color: #f0931e">
+      <div class="container">
+        <div class="row text-white">
+          <div class="col-sm-12 copyright-footer">
+            <p>Copyright © 2023 Big Caters. All rights are reserved.</p>
+          </div>
 
-            <div class="fixed-footer">
-              <ul>
-                <li>
-                  <a
-                    href="tel:+919811026598"
-                    title="Call Now"
-                    class="edit inverse"
-                  >
-                    <i class="fa fa-phone"></i>
-                    Call Now
-                  </a>
-                </li>
+          <div class="fixed-footer">
+            <ul>
+              <li>
+                <a href="tel:+919811026598" title="Call Now" class="edit inverse">
+                  <i class="fa fa-phone"></i>
+                  Call Now
+                </a>
+              </li>
 
-                <li>
-                  <a
-                    href="javascript:void(0)"
-                    data-scroll="quote-section"
-                    title="Enquire Now"
-                    class="edit inverse"
-                  >
-                    <i class="fa fa-envelope-o"></i>
-                    Enquire Now
-                  </a>
-                </li>
+              <li>
+                <a href="javascript:void(0)" data-scroll="quote-section" title="Enquire Now" class="edit inverse">
+                  <i class="fa fa-envelope-o"></i>
+                  Enquire Now
+                </a>
+              </li>
 
-                <li>
-                  <a
-                    href="https://wa.me/919811026598"
-                    class="edit inverse"
-                    target="_blank"
-                  >
-                    <i class="fa fa-whatsapp"></i>
-                    Whatsapp
-                  </a>
-                </li>
-              </ul>
-            </div>
+              <li>
+                <a href="https://wa.me/919811026598" class="edit inverse" target="_blank">
+                  <i class="fa fa-whatsapp"></i>
+                  Whatsapp
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
+  </div>
 
-    <a
-      href="javascript:void(0)"
-      class="top is-visible"
-      style="background-color: #f0931e"
-    >
-      Top
-    </a>
+  <a href="javascript:void(0)" class="top is-visible" style="background-color: #f0931e">
+    Top
+  </a>
 
-    <script src="./scripts/jquery1.11.2.min.js"></script>
-    <script src="./scripts/bootstrap.min.js"></script>
-    <!-- Custom Script -->
-    <script src="./scripts/custom.js"></script>
-  </body>
+  <script src="./scripts/jquery1.11.2.min.js"></script>
+  <script src="./scripts/bootstrap.min.js"></script>
+  <!-- Custom Script -->
+  <script src="./scripts/custom.js"></script>
+
+  <script type="text/javascript">
+    // Restricts input for the given textbox to the given inputFilter function.
+    function setInputFilter(textbox, inputFilter) {
+      ["input", "keydown", "keyup", "mousedown", "mouseup", "select", "contextmenu", "drop"].forEach(function (event) {
+        textbox.addEventListener(event, function () {
+          if (inputFilter(this.value)) {
+            this.oldValue = this.value;
+            this.oldSelectionStart = this.selectionStart;
+            this.oldSelectionEnd = this.selectionEnd;
+          } else if (this.hasOwnProperty("oldValue")) {
+            this.value = this.oldValue;
+            this.setSelectionRange(this.oldSelectionStart, this.oldSelectionEnd);
+          } else {
+            this.value = "";
+          }
+        });
+      });
+    }
+
+    setInputFilter(document.getElementById("qPhone"), function (value) {
+      return /^\d*$/.test(value);
+    });
+
+    setInputFilter(document.getElementById("cPhone"), function (value) {
+      return /^\d*$/.test(value);
+    });
+  </script>
+</body>
+
 </html>
