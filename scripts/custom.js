@@ -104,6 +104,7 @@ $(document).ready(function () {
           $(".failed.cf").fadeOut(500);
           document.getElementById("contactForm").reset();
           $('[type="submit"]').prop("disabled", false);
+          window.location.href = './thank-you.html';
         },
       });
     } else {
@@ -142,6 +143,7 @@ $(document).ready(function () {
           $(".failed.qf").fadeOut(500);
           document.getElementById("quoteForm").reset();
           $('[type="submit"]').prop("disabled", false);
+          window.location.href = './thank-you.html';
         },
       });
     } else {
