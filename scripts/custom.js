@@ -117,7 +117,10 @@ $(document).ready(function () {
 
   $("#quoteForm").on("submit", function (e) {
     e.preventDefault();
+    let searchParams = new URLSearchParams(window.location.search);
+
     var data = {
+      _r: searchParams.get('_r'),
       name: $("#qName").val(),
       email: $("#qEmail").val(),
       phone: $("#qPhone").val(),

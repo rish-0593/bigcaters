@@ -12,6 +12,7 @@ require '../env.php';
 //Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer(true);
 
+$_r       = $_POST['_r'] ?? '';
 $name       = $_POST['name'] ?? '';
 $email      = $_POST['email'] ?? '';
 $phone      = $_POST['phone'] ?? '';
@@ -223,13 +224,14 @@ $htmlBody = '
                                           mso-line-height-alt: 19.2px;
                                         "
                                       >
-                                        <span
-                                          style="
-                                            font-size: 46px;
-                                            color: #003188;
-                                          "
-                                          ><strong>Big Caters</strong></span
-                                        >
+                                        <span style="font-size: 46px; color: #003188;">
+                                          <strong>Big Caters</strong>
+                                        </span>
+                                        '.(!empty($_r) ? 
+                                            '<br><span style="font-size: 25px; color: #003188;">
+                                              <strong>('.$_r.')</strong><br>
+                                            </span>'
+                                           : '').'
                                       </p>
                                     </div>
                                   </div>
