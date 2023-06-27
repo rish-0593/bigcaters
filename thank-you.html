@@ -106,6 +106,9 @@
             <h3 class="f-w-900 m-b-md">
               Thank you for your interest. Our Experts will get back to you shortly
             </h3>
+            <h3 class="f-w-900 m-b-md" counter>
+              10
+            </h3>
           </div>
         </div>
       </div>
@@ -207,6 +210,22 @@
   <script src="./scripts/bootstrap.min.js"></script>
   <!-- Custom Script -->
   <script src="./scripts/custom.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      let time = 10;
+
+      counter = setInterval(() => {
+        $('[counter]').text(time = time - 1);
+
+        if (time < 1) {
+          clearInterval(counter);
+
+          window.location.href = location.protocol + '//' + location.host;
+        }
+      }, 1000);
+    });
+  </script>
 </body>
 
 </html>
